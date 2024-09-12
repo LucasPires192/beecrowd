@@ -1,0 +1,11 @@
+#Exercicio 1006 Média 2
+
+notaA = float(input("Digite a primeira nota: "))
+notaB = float(input("Digite a segunda nota: "))
+notaC = float(input("Digite a terceira nota: "))
+pesoA = 2
+pesoB = 3
+pesoC = 5
+media = (notaA * pesoA + notaB * pesoB + notaC * pesoC) / (pesoA + pesoB + pesoC)
+
+print("MEDIA = " , media)
