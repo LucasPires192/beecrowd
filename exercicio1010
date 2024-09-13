@@ -1,0 +1,7 @@
+#Exercicio 1010 Cálculo Simples
+
+peca1 = int(input("Digite o código da peca1: ")) , int(input("Digite a quantidade de peças1: ")) , float(input("Digite o valor unitárioda peça1: "))
+peca2 = int(input("Digite o código da peca2: ")) , int(input("Digite a quantidade de peças2: ")) , float(input("Digite o valor unitárioda peça2: "))
+totalPagar = peca1[1] * peca1[2] + peca2[1] * peca2[2]
+
+print("VALOR A PAGAR : R$ " , totalPagar)
