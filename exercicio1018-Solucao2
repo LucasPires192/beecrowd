@@ -1,0 +1,26 @@
+#Exercicio 1018 Cédulas - Solução 2
+
+#o código le um valor e calcula o menor número de notas possíveis (cédulas) no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2 e 1.
+
+numInicio = int(input("Digite um número: "))
+numero = numInicio
+cedula = [100 , 50 , 20 , 10 , 5 , 2 , 1]
+quantCed = []
+
+for i in cedula:
+  if numero >= i:
+    quantCed.append(i)
+    quantCed[cedula.index(i)] = numero // i
+    numero = numero % i
+  else:
+    quantCed.append(i)
+    quantCed[cedula.index(i)] = 0
+    numero = numero % i
+print(numInicio)
+print(f"{quantCed[0]} notas(s) de R$ 100,00")
+print(f"{quantCed[1]} notas(s) de R$ 50,00")
+print(f"{quantCed[2]} notas(s) de R$ 20,00")
+print(f"{quantCed[3]} notas(s) de R$ 10,00")
+print(f"{quantCed[4]} notas(s) de R$ 5,00")
+print(f"{quantCed[5]} notas(s) de R$ 2,00")
+print(f"{quantCed[6]} notas(s) de R$ 1,00")
