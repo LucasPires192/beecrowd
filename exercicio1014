@@ -1,0 +1,6 @@
+#Exercicio 1014 Consumo
+
+km = int(input("Digite a distancia total percorrida em km: "))
+combustivel = float(input("Digite o consumo total de combustivel: "))
+
+print(round(km / combustivel , 3) , "km/l")
