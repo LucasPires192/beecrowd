@@ -1,0 +1,15 @@
+#Exercicio 1012 Area
+
+medida = {"a" : float(input("Digite o valor de A: ")) , "b" : float(input("Digite o valor de B: ")) , "c" : float(input("Digite o valor de C: "))}
+
+areaTriangulo = (medida["a"] * medida["c"]) / 2
+pi = 3.14159
+areaCirculo = (pi * (medida["c"] ** 2))
+areaTrapezio = (medida["a"] + medida["b"]) * medida["c"] / 2
+areaQuadrado = medida["b"] ** 2
+areaRetangulo = medida["a"] * medida["b"]
+print("TRIANGULO: " , round(areaTriangulo , 3))
+print("CIRCULO: " , round(areaCirculo , 3))
+print("TRAPEZIO: " , round(areaTrapezio , 3))
+print("QUADRADO: " , round(areaQuadrado , 3))
+print("RETANGULO: " , round(areaRetangulo , 3))
