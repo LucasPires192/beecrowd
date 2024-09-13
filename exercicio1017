@@ -1,0 +1,8 @@
+#Exercicio 1017 Gasto de Combustivel
+
+tempo = int(input("Digite o tempo de viagem em horas: "))
+velocidade = int(input("Digite a velocidade média da viagem em Km/h: "))
+distancia = velocidade * tempo
+combustivel = 12
+
+print(round(distancia / combustivel , 3))
