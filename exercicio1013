@@ -1,0 +1,4 @@
+#Exercicio 1013 O Maior
+
+numero = float(input("Digite o primeiro valor: ")) , float(input("Digite o segundo valor: ")) , float(input("Digite o terceiro valor: "))
+print(max(numero) , "eh o maior")
