@@ -1,0 +1,9 @@
+#Exercicio 1008 Salário
+
+funcID = int(input("Digite o número do funcionário: "))
+horaTrab = int(input("Digite as horas trabalhadas: "))
+valorHora = float(input("Digite o valor da hora trabalhada: "))
+salario = horaTrab * valorHora
+
+print("Número = " , funcID)
+print("Salário = R$ " , salario)
