@@ -1,0 +1,40 @@
+#Exercicio 1018 Cédulas Solucao 1
+
+numero = int(input("Digite um número: "))
+resto = 0
+cedula100 = 0
+cedula50 = 0
+cedula20 = 0
+cedula10 = 0
+cedula5 = 0
+cedula2 = 0
+
+if numero >= 100:
+  cedula100 = numero // 100
+  resto = numero % 100
+else:
+  resto = numero
+if resto >= 50:
+  cedula50 = resto // 50
+  resto = resto % 50
+if resto >= 20:
+  cedula20 = resto // 20
+  resto = resto % 20
+if resto >= 10:
+  cedula10 = resto // 10
+  resto = resto % 10
+if resto >= 5:
+  cedula5 = resto // 5
+  resto = resto % 5
+if resto >= 2:
+  cedula2 = resto // 2
+  resto = resto % 2
+
+print(numero)
+print(f"{cedula100} notas(s) de R$ 100,00")
+print(f"{cedula50} notas(s) de R$ 50,00")
+print(f"{cedula20} notas(s) de R$ 20,00")
+print(f"{cedula10} notas(s) de R$ 10,00")
+print(f"{cedula5} notas(s) de R$ 5,00")
+print(f"{cedula2} notas(s) de R$ 2,00")
+print(f"{resto} notas(s) de R$ 1,00")
