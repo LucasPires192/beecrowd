@@ -1,0 +1,8 @@
+#Exercicio 1019 Coversão de tempo
+
+tempo = int(input("Digite o tempo do evento em segundos: "))
+horas = (tempo // 60) // 60
+minutos = (tempo // 60) % 60
+segundos = tempo % 60
+
+print(f"{horas} : {minutos} : {segundos}")
