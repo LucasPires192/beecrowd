@@ -1,0 +1,7 @@
+#Exercicio 1015 Distancia entre dois pontos
+
+ponto1 = {"x" : float(input("Digite a cordenada x do ponto 1: ")) , "y" : float(input("Digite a cordenada y do ponto 1: "))}
+ponto2 = {"x" : float(input("Digite a cordenada x do ponto 2: ")) , "y" : float(input("Digite a cordenada y do ponto 2: "))}
+distancia = (((ponto2["x"] - ponto1["x"]) ** 2) + ((ponto2["y"] - ponto1["y"]) ** 2)) ** (1 / 2)
+
+print(round(distancia , 4))
