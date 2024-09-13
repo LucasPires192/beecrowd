@@ -1,0 +1,4 @@
+#Exercicio 1016 Distancia
+
+distancia = int(input("Digite a distancia: "))
+print(f"{distancia * 2} minutos")
