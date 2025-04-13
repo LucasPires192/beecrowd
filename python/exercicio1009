@@ -1,8 +1,8 @@
 #Exercicio 1009 Salário Bônus
 
-nome = input("Digiteo nome do vendedor: ")
+nome = input("Digite o nome do vendedor: ")
 salario = float(input("Digite o salario do vendedor: "))
-venda = float(input("Digite o valor das vendas do venddor: "))
+venda = float(input("Digite o valor das vendas do vendedor: "))
 salarioTotal = salario + venda * 0.15
 
 print("VENDEDOR = " , nome)
